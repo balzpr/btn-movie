@@ -1,0 +1,47 @@
+{
+  "movie_list": [
+    {
+      "title": "Squid Game Season 2",
+      "episode": "7",
+      "description": "Musim kedua dari serial televisi horor thriller survival distopia Korea Selatan Squid Game dibuat untuk televisi oleh penulis dan produser televisi Korea Hwang Dong-hyuk.<br><br>Diproduksi oleh Netflix, serial ini dirilis pada 26 Desember 2024.",
+      "image": "/images/squid_game_s2.webp",
+      "data": [
+        {
+          "episode": "1",
+          "title": "Bread and Lottery",
+          "iframe_link": "https://vidlink.pro/tv/93405/2/1"
+        },
+        {
+          "episode": "2",
+          "title": "Halloween Party",
+          "iframe_link": "https://vidlink.pro/tv/93405/2/2"
+        },
+        {
+          "episode": "3",
+          "title": "001",
+          "iframe_link": "https://vidlink.pro/tv/93405/2/3"
+        },
+        {
+          "episode": "4",
+          "title": "Six Legs",
+          "iframe_link": "https://vidlink.pro/tv/93405/2/4"
+        },
+        {
+          "episode": "5",
+          "title": "One More Game",
+          "iframe_link": "https://vidlink.pro/tv/93405/2/5"
+        },
+        {
+          "episode": "6",
+          "title": "O X",
+          "iframe_link": "https://vidlink.pro/tv/93405/2/6"
+        },
+        {
+          "episode": "7",
+          "title": "Friend or Foe",
+          "iframe_link": "https://vidlink.pro/tv/93405/2/7"
+        }
+      ]
+    }
+  ]
+}
