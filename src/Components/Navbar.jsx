@@ -31,6 +31,11 @@ const Navbar = () => {
                 About
               </Link>
             </li>
+            <li className="nav-item">
+              <Link to="/request" className={`nav-link ${currentPath === "/request" ? "active" : ""}`}>
+                Request Film
+              </Link>
+            </li>
           </ul>
         </div>
       </div>
