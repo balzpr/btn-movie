@@ -9,39 +9,38 @@ const About = () => {
       <Navbar />
       <div className="container mt-5">
         <div className="row justify-content-center">
-          {/* About Information Card */}
           <div className="col-md-8">
             <div className="card text-white bg-dark mb-4">
               <div className="card-header text-center">
-                <h3>About Us</h3>
+                <h3 className="fw-bold">Tentang Kami</h3>
               </div>
               <div className="card-body">
-                <p className="lead">Welcome to our website! This platform was created with passion and dedication to providing you with the best user experience.</p>
+                <p className="lead text-center">Selamat datang di situs kami! Platform ini dibikin dengan semangat dan dedikasi buat kasih kamu pengalaman terbaik.</p>
 
-                <h5>Developer</h5>
-                <p>
-                  This website was developed by <strong>Your Name</strong>, a passionate web developer with experience in creating dynamic, interactive, and user-friendly web applications.
+                <h5 className="fw-bold">Pengembang</h5>
+                <p className="text-muted">
+                  Website ini dikerjain sama <strong>BTN Dev</strong>, seorang developer yang passionate dan punya pengalaman dalam bikin aplikasi web yang dinamis, interaktif, dan pastinya
+                  user-friendly.
                 </p>
 
-                <h5>Technologies Used</h5>
-                <ul>
-                  <li>React JS</li>
-                  <li>Vite</li>
-                  <li>Bootstrap</li>
-                  <li>JavaScript, HTML, CSS</li>
+                <h5 className="fw-bold">Teknologi yang Dipakai</h5>
+                <ul className="list-unstyled">
+                  <li>🔹 React JS</li>
+                  <li>🔹 Vite</li>
+                  <li>🔹 Bootstrap</li>
                 </ul>
 
-                <h5>Website Features</h5>
-                <p>This website was built with the latest web technologies and a focus on responsive design. It includes features such as:</p>
-                <ul>
-                  <li>Dynamic content loading</li>
-                  <li>Modern and user-friendly interface</li>
-                  <li>Fast performance using Vite</li>
-                  <li>Responsive design for all devices</li>
+                <h5 className="fw-bold">Fitur Website</h5>
+                <p>Website ini dibangun dengan teknologi terbaru dan fokus pada desain responsif. Ini ada fitur-fitur keren kayak:</p>
+                <ul className="list-unstyled">
+                  <li>🔹 Konten yang dimuat secara dinamis</li>
+                  <li>🔹 Antarmuka yang modern dan user-friendly</li>
+                  <li>🔹 Kinerja cepat berkat Vite</li>
+                  <li>🔹 Desain responsif buat semua perangkat</li>
                 </ul>
 
-                <h5>Thank You for Visiting</h5>
-                <p>We hope you enjoy the experience. If you have any questions or feedback, feel free to contact us!</p>
+                <h5 className="fw-bold">Makasih Udah Berkunjung</h5>
+                <p className="text-muted">Semoga kamu enjoy dengan pengalaman ini. Kalo ada pertanyaan atau feedback, jangan sungkan buat hubungi kami!</p>
               </div>
             </div>
           </div>

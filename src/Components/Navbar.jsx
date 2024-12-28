@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState, useEffect} from "react";
 import {Link, useLocation} from "react-router-dom";
 
 const Navbar = () => {
@@ -6,7 +6,7 @@ const Navbar = () => {
   const currentPath = location.pathname;
 
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav className={`navbar navbar-expand-lg navbar-dark`}>
       <div className="container">
         <a className="navbar-brand" href="/">
           BTN Movie

@@ -27,7 +27,6 @@ const Watch = () => {
   return (
     <div data-bs-theme="dark">
       <Navbar />
-      <Hero />
       <div className="container mt-5">
         <div className="row mb-4">
           <div className="col-md-4">
@@ -39,24 +38,24 @@ const Watch = () => {
           </div>
         </div>
         <h3>Daftar Episode</h3>
-        <div className="row justify-content-center">
+        <div className="row justify-content-start">
           {movieData.data.map((episode, index) => (
-            <div className="col-md-3 mb-4" key={index}>
+            <div className="col-md-8 mb-4" key={index}>
               <div className="card bg-dark text-white movie-card position-relative">
-                <img src={movieData.image} className="card-img-top" alt={movieData.title} />
-                <span className="badge">Episode {episode.episode}</span>
-                <div className="card-body">
-                  <h5 className="card-title">{episode.title}</h5>
-                  <a href={`/stream/${encodeBase64(episode.iframe_link)}`} className="btn btn-danger w-100 mt-2" rel="noopener noreferrer">
-                    Tonton Sekarang
+                <div className="card-body d-flex justify-content-between align-items-center">
+                  <h5 className="card-title">
+                    Episode {episode.episode}: {episode.title}
+                  </h5>
+                  <a href={`/stream/${encodeBase64(episode.iframe_link)}`} className="btn btn-danger">
+                    Tonton
                   </a>
                 </div>
+                <p className="mt-2">{episode.description}</p>
               </div>
             </div>
           ))}
         </div>
       </div>
-      <Footer />
     </div>
   );
 };

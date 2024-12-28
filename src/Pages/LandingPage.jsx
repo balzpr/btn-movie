@@ -16,10 +16,10 @@ const LandingPage = () => {
       <Navbar />
       <Hero />
       <div className="container mt-5">
-        <h2 className="text-center mb-4">Featured Movies</h2>
+        <h2 className="text-center mb-4">Baru diupload</h2>
         <div className="row justify-content-center">
           {movies.map((movie, index) => (
-            <MovieCard key={index} title={movie.title} image={movie.image} description={{__html: movie.description}} episodes={movie.episode} />
+            <MovieCard key={index} title={movie.title} image={movie.image} episodes={movie.episode} quality={movie.quality} />
           ))}
         </div>
       </div>
