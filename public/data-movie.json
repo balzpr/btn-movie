@@ -1,11 +1,14 @@
 {
   "movie_list": [
     {
+      "id": 1,
       "title": "Squid Game Season 2",
-      "episode": "7 Eps",
+      "episode": "7",
       "description": "Musim kedua dari serial televisi horor thriller survival distopia Korea Selatan Squid Game dibuat untuk televisi oleh penulis dan produser televisi Korea Hwang Dong-hyuk.<br><br>Diproduksi oleh Netflix, serial ini dirilis pada 26 Desember 2024.",
-      "image": "/images/squid_game_s2.webp",
+      "image": "/images/squid_game_s2.jpg",
+      "genre": "Survival, Thriller, Horror",
       "quality": "HD 1080p",
+      "landing_page": true,
       "data": [
         {
           "episode": "1",
@@ -45,11 +48,14 @@
       ]
     },
     {
+      "id": 2,
       "title": "Dilan 1983 Wo Ai Ni",
-      "episode": "Full Movie",
+      "episode": "1",
       "description": "Dilan 1983: Wo Ai Ni adalah film drama keluarga Indonesia tahun 2024 yang disutradarai oleh Fajar Bustomi dan ditulis oleh Pidi Baiq dan Alim Sudio.<br><br>Film tersebut merupakan prekuel dari film-film Dilan 1990, Dilan 1991, Milea: Suara dari Dilan dan Ancika: Dia yang Bersamaku 1995. Film ini dirilis pada 13 Juni 1983.[1]",
       "image": "/images/dilan_wo_ai_1983.jpg",
+      "genre": "Romantis",
       "quality": "HD 720p",
+      "landing_page": true,
       "data": [
         {
           "title": "Full Movie",
@@ -58,11 +64,14 @@
       ]
     },
     {
+      "id": 3,
       "title": "Janji Darah",
-      "episode": "Full Movie",
+      "episode": "1",
       "description": "Janji Darah adalah sebuah film horor Indonesia tahun 2024 yang disutradarai oleh Sentot Sahid dan Andri Sofyansyah. Film tersebut menampilkan Natasha Wilona, Emir Mahira, Fergie Brittany, Djenar Maesa Ayu, Kiki Narendra, Abirama Putra, Yati Surachman, Emmie Lemu dan Shabrina Luna.",
       "image": "/images/janji_darah.jpeg",
       "quality": "HD 1080p",
+      "genre": "Horror",
+      "landing_page": false,
       "data": [
         {
           "title": "Full Movie",
@@ -71,11 +80,14 @@
       ]
     },
     {
+      "id": 4,
+      "genre": "Horror",
       "title": "Munkar",
-      "episode": "Full Movie",
+      "episode": "1",
       "description": "Munkar adalah film horor Indonesia tahun 2024 yang disutradarai oleh Anggy Umbara. Film produksi MD Pictures serta Pichouse Films ini dibintangi oleh Adhisty Zara, Ratu Sofya, dan Saskia Chadwick. Munkar tayang perdana di bioskop Indonesia pada 7 Februari 2024.",
       "image": "/images/munkar.jpg",
       "quality": "HD 1080p",
+      "landing_page": true,
       "data": [
         {
           "title": "Full Movie",
@@ -84,15 +96,66 @@
       ]
     },
     {
-      "title": "Spiderman Far From Home",
-      "episode": "Full Movie",
-      "description": "Peter Parker (Tom Holland) tengah mengunjungi Eropa untuk liburan panjang bersama temaan-temanya.<br>Sayangnya , Parker tidak bisa dengan tenang menikmati liburannya, karena Nick Fury datang secara tiba-tiba di kamar hotelnya.<br>Selama di Eropa pun Peter harus menghadapi banyak musuh mulai dari Hydro Man, Sandman dan Molten Man.",
-      "image": "/images/spiderman_ffh.jpg",
+      "id": 5,
+      "genre": "Drama",
+      "title": "Jakarta vs Everybody",
+      "episode": "1",
+      "description": "Dom, seorang remaja yang sedang mencari jati diri, mencoba segala cara untuk mencapai mimpinya sebagai seorang aktor di Jakarta.<br>Setelah serangkaian audisi yang gagal, Dom bertemu Radit dan Pinkan, seorang pasangan muda yang memberikannya pekerjaan.<br>Menggunakan keterampilan aktingnya untuk berperan sebagai karakter yang berbeda, Dom terjemus dalam dunia hitam.",
+      "image": "/images/jakarta-vs-everybody.jpg",
       "quality": "HD 1080p",
+      "landing_page": true,
       "data": [
         {
           "title": "Full Movie",
-          "iframe_link": "https://vidlink.pro/movie/429617"
+          "iframe_link": "https://vidsrc.xyz/embed/movie/551478"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "genre": "Horror, Survival",
+      "title": "Dosen Ghaib",
+      "episode": "1",
+      "description": "Film ini menceritakan tentang empat mahasiswa, Amelia, Emir, Maya, dan Fattah, yang harus mengikuti kelas semester pendek setelah gagal dalam mata kuliah Pak Bakti.<br>Pak Bakti adalah dosen yang dikenal galak, misterius, dan memiliki kemampuan gaib.",
+      "image": "/images/GSwLH28a8AA_GGt.jpg_large",
+      "quality": "HD 1080p",
+      "landing_page": true,
+      "data": [
+        {
+          "title": "Full Movie",
+          "iframe_link": "https://vidsrc.xyz/embed/movie/1264247"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "genre": "Horror, Survival, Kisah Nyata",
+      "title": "Rumah Dinas Bapak",
+      "episode": "1",
+      "description": "Film Rumah Dinas Bapak merupakan film yang diangkat dari kisah nyata masa kecil yang dialami oleh Dodit Mulyanto dan keluarganya.<br>Sinopsis film ini mengikuti kisah keluarga Dodit yang harus pindah ke rumah dinas tempat ayahnya bekerja sebagai polisi di hutan jati.",
+      "image": "/images/oofvIRqMT4aGqa3IuMjCwp4cj6J.jpg",
+      "quality": "HD 1080p",
+      "landing_page": true,
+      "data": [
+        {
+          "title": "Full Movie",
+          "iframe_link": "https://vidsrc.xyz/embed/movie/1281437"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "genre": "Horror, Survival, Kisah Nyata",
+      "title": "Badarawuhi Di Desa Penari",
+      "episode": "1",
+      "description": "Badarawuhi di Desa Penari adalah film yang menceritakan tentang Mila, seorang anak yang pergi ke Desa Penari untuk mencari obat bagi ibunya yang sakit keras.<br>Di sana, Mila bertemu dengan Badarawuhi, sosok iblis ular yang ingin menjadikan Mila sebagai penari desa.",
+      "image": "/images/b7386d86be102556ea1faaf905aae341.jpg",
+      "quality": "HD 1080p",
+      "landing_page": true,
+      "data": [
+        {
+          "title": "Full Movie",
+          "iframe_link": "https://vidsrc.xyz/embed/movie/1176166"
         }
       ]
     }
