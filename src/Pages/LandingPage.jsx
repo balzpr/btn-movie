@@ -3,6 +3,7 @@ import Navbar from "../Components/Navbar";
 import Hero from "../Components/Landing/Hero";
 import MovieCard from "../Components/Landing/MovieCard";
 import Footer from "../Components/Footer";
+import Swal from "sweetalert2";
 
 const LandingPage = () => {
   const [movies, setMovies] = useState([]);
@@ -27,7 +28,7 @@ const LandingPage = () => {
       .catch((error) => console.error("Error fetching movies:", error));
   }, []);
 
-  const genres = ["Semua Genre", "Horror", "Survival", "Romantis", "Drama", "Kisah Nyata"];
+  const genres = ["Semua Genre", "Komedi", "Horror", "Survival", "Romantis", "Drama", "Kisah Nyata", "Series", "Fiksi"];
 
   const filterMoviesByGenre = (genre) => {
     if (genre === "Semua Genre") {
@@ -71,7 +72,7 @@ const LandingPage = () => {
         <nav aria-label="Page navigation example">
           <ul className="pagination justify-content-center mt-4">
             <li className={`page-item ${currentPage === 1 ? "disabled" : ""}`}>
-              <a className="page-link" href="#" onClick={() => handlePageChange(currentPage - 1)}>
+              <a className="page-link" href="javascript:;" onClick={() => handlePageChange(currentPage - 1)}>
                 Previous
               </a>
             </li>
@@ -79,14 +80,14 @@ const LandingPage = () => {
             {/* Page Numbers */}
             {[...Array(totalPages)].map((_, index) => (
               <li key={index} className={`page-item ${currentPage === index + 1 ? "active" : ""}`}>
-                <a className="page-link" href="#" onClick={() => handlePageChange(index + 1)}>
+                <a className="page-link" href="javascript:;" onClick={() => handlePageChange(index + 1)}>
                   {index + 1}
                 </a>
               </li>
             ))}
 
             <li className={`page-item ${currentPage === totalPages ? "disabled" : ""}`}>
-              <a className="page-link" href="#" onClick={() => handlePageChange(currentPage + 1)}>
+              <a className="page-link" href="javascript:;" onClick={() => handlePageChange(currentPage + 1)}>
                 Next
               </a>
             </li>

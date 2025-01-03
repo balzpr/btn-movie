@@ -2,7 +2,9 @@ import React, {useEffect, useState} from "react";
 import Navbar from "../Components/Navbar";
 import Footer from "../Components/Footer";
 import {useParams} from "react-router-dom";
-
+import Swal from "sweetalert2";
+import {database} from "../firebase/firebase";
+import {ref, set} from "firebase/database";
 const Watch = () => {
   const {title} = useParams();
   const [movieData, setMovieData] = useState(null);
@@ -19,6 +21,45 @@ const Watch = () => {
 
   const encodeBase64 = (string) => {
     return btoa(string);
+  };
+
+  const OnWatch = async (url, title, episode) => {
+    if (!localStorage.getItem("username")) {
+      Swal.fire({
+        title: "Sebelum nonton, kenalan dulu yuk",
+        text: "Ketik nama kamu biar bisa lanjut nonton dengan gratis!",
+        input: "text",
+        inputAttributes: {
+          autocapitalize: "off",
+        },
+        showCancelButton: true,
+        confirmButtonText: "Lanjutkan",
+        cancelButtonText: "Batal",
+        preConfirm: async (name) => {
+          if (!name) {
+            Swal.showValidationMessage("Nama tidak boleh kosong!");
+            return false;
+          }
+          try {
+            const requestRef = ref(database, "users/" + name);
+            await set(requestRef, {
+              nama_lengkap: name,
+              timestamp: new Date().toISOString(),
+            });
+            localStorage.setItem("username", name);
+          } catch (error) {
+            Swal.showValidationMessage(`Gagal menyimpan data: ${error.message}`);
+          }
+        },
+        allowOutsideClick: false,
+      }).then((result) => {
+        if (result.isConfirmed) {
+          window.location.href = "/stream/" + url;
+        }
+      });
+    } else {
+      window.location.href = "/stream/" + url;
+    }
   };
 
   if (!movieData) return <div>Loading...</div>;
@@ -87,7 +128,7 @@ const Watch = () => {
                   <p className="text-muted">{episode.description}</p>
                   {/* Full-Width Tonton Button */}
                   <a
-                    href={`/stream/${encodeBase64(episode.iframe_link)}`}
+                    onClick={() => OnWatch(encodeBase64(episode.iframe_link), movieData.title, episode.title)}
                     className="btn btn-danger w-100 py-2"
                     style={{
                       fontWeight: "600",

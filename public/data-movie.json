@@ -6,7 +6,7 @@
       "episode": "7",
       "description": "Musim kedua dari serial televisi horor thriller survival distopia Korea Selatan Squid Game dibuat untuk televisi oleh penulis dan produser televisi Korea Hwang Dong-hyuk.<br><br>Diproduksi oleh Netflix, serial ini dirilis pada 26 Desember 2024.",
       "image": "/images/squid_game_s2.jpg",
-      "genre": "Survival, Thriller, Horror",
+      "genre": "Survival, Thriller, Horror, Series",
       "quality": "HD 1080p",
       "landing_page": true,
       "data": [
@@ -87,7 +87,7 @@
       "description": "Munkar adalah film horor Indonesia tahun 2024 yang disutradarai oleh Anggy Umbara. Film produksi MD Pictures serta Pichouse Films ini dibintangi oleh Adhisty Zara, Ratu Sofya, dan Saskia Chadwick. Munkar tayang perdana di bioskop Indonesia pada 7 Februari 2024.",
       "image": "/images/munkar.jpg",
       "quality": "HD 1080p",
-      "landing_page": true,
+      "landing_page": false,
       "data": [
         {
           "title": "Full Movie",
@@ -103,7 +103,7 @@
       "description": "Dom, seorang remaja yang sedang mencari jati diri, mencoba segala cara untuk mencapai mimpinya sebagai seorang aktor di Jakarta.<br>Setelah serangkaian audisi yang gagal, Dom bertemu Radit dan Pinkan, seorang pasangan muda yang memberikannya pekerjaan.<br>Menggunakan keterampilan aktingnya untuk berperan sebagai karakter yang berbeda, Dom terjemus dalam dunia hitam.",
       "image": "/images/jakarta-vs-everybody.jpg",
       "quality": "HD 1080p",
-      "landing_page": true,
+      "landing_page": false,
       "data": [
         {
           "title": "Full Movie",
@@ -135,7 +135,7 @@
       "description": "Film Rumah Dinas Bapak merupakan film yang diangkat dari kisah nyata masa kecil yang dialami oleh Dodit Mulyanto dan keluarganya.<br>Sinopsis film ini mengikuti kisah keluarga Dodit yang harus pindah ke rumah dinas tempat ayahnya bekerja sebagai polisi di hutan jati.",
       "image": "/images/oofvIRqMT4aGqa3IuMjCwp4cj6J.jpg",
       "quality": "HD 1080p",
-      "landing_page": true,
+      "landing_page": false,
       "data": [
         {
           "title": "Full Movie",
@@ -151,11 +151,59 @@
       "description": "Badarawuhi di Desa Penari adalah film yang menceritakan tentang Mila, seorang anak yang pergi ke Desa Penari untuk mencari obat bagi ibunya yang sakit keras.<br>Di sana, Mila bertemu dengan Badarawuhi, sosok iblis ular yang ingin menjadikan Mila sebagai penari desa.",
       "image": "/images/b7386d86be102556ea1faaf905aae341.jpg",
       "quality": "HD 1080p",
-      "landing_page": true,
+      "landing_page": false,
       "data": [
         {
           "title": "Full Movie",
           "iframe_link": "https://vidsrc.xyz/embed/movie/1176166"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "genre": "Fiksi, Survival, Drama, Petualangan",
+      "title": "Interstellar (2014)",
+      "episode": "1",
+      "description": "Sebuah tim penjelajah antar galaksi harus melewati lubang cacing dan terjebak di dimensi waktu ruang angkasa dalam upaya untuk menjamin kelangsungan hidup umat manusia di planet bumi.",
+      "image": "/images/wp12464977.jpg",
+      "quality": "HD 1080p",
+      "landing_page": false,
+      "data": [
+        {
+          "title": "Full Movie",
+          "iframe_link": "https://embed.su/embed/movie/157336"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "genre": "Komedi, Drama",
+      "title": "Guru Guru Gokil",
+      "episode": "1",
+      "description": "Guru-Guru Gokil bercerita tentang Taat (Gading Marten) yang berambisi untuk sukses, tapi lebih sering menemui kegagalan dalam karier. Baginya, kesuksesan berarti memiliki uang banyak.<br>Hingga suatu saat, keadaan mengharuskan Taat untuk bekerja menjadi guru di sebuah sekolah.",
+      "image": "/images/1e83c4ba133007a04922911403ec4895.jpg",
+      "quality": "HD 1080p",
+      "landing_page": false,
+      "data": [
+        {
+          "title": "Full Movie",
+          "iframe_link": "https://vidlink.pro/movie/655832"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "genre": "Komedi, Drama, Romantis",
+      "title": "Lara Ati",
+      "episode": "1",
+      "description": "Joko menghadapi kenyataan bahwa ia tidak menyukai pekerjaannya dan orangtuanya tidak mendukung mimpinya menjadi seorang pekerja desain.<br>Ditambah lagi, Joko ditinggal tunangan oleh pacarnya, Farah. Hidup Joko berantakan.",
+      "image": "/images/1.jpg",
+      "quality": "HD 720p",
+      "landing_page": false,
+      "data": [
+        {
+          "title": "Full Movie",
+          "iframe_link": "https://vidlink.pro/movie/802706"
         }
       ]
     }
